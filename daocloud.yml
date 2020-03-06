@@ -1,0 +1,10 @@
+image: daocloud/ci-node:0.12
+
+env:
+    - PORT = 12345
+
+install:
+    - npm install .
+
+script:
+    - npm run-script test
