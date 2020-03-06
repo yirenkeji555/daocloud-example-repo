@@ -4,7 +4,7 @@ var url = require('url')
 var server = http.createServer(router({
   '/': function(req, res) {
     res.writeHead(200)
-    res.end('Hello world!')
+    res.end('Hello world From yiren !')
   },
 
   '/bye': function(req, res) {
