@@ -4,7 +4,7 @@ var url = require('url')
 var server = http.createServer(router({
   '/': function(req, res) {
     res.writeHead(200)
-    res.end('Hello world From yiren ... and i upgrade ... 2020-03-06 11:35')
+    res.end('Hello world From yiren and version update at 11:40')
   },
 
   '/bye': function(req, res) {
@@ -15,7 +15,7 @@ var server = http.createServer(router({
 
 server.listen(parseInt(process.env.PORT) || 80, function() {
   console.log('Docker DEMO with Node.js is running.')
-
+})
 
 module.exports = server
 
